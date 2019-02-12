@@ -7,7 +7,7 @@ import random
 
 def gen_random_string(size=5, chars=string.ascii_letters + string.digits):
     """
-    @:arg1 size = 8
+    @:arg1 size = 5
     @:arg2 chars = letters + digits
     @:return a string
     """
@@ -18,7 +18,6 @@ def histogram_from_list(the_list):
     temp_set = set(the_list)
     for x in temp_set:
         print('{0} {1}'.format(x, '*'*the_list.count(x)))
-    pass
 
 
 list_string = [gen_random_string() for _ in range(5)]

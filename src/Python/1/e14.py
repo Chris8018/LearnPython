@@ -7,9 +7,9 @@ import random
 
 def pw_gen(size=8, chars=string.ascii_letters + string.digits + string.punctuation):
     """
-    @:arg1 size = 8
-    @:arg2 chars = letters + digits + punctuations
-    @:return password
+    :arg1 size = 8
+    :arg2 chars = letters + digits + punctuations
+    :return password
     """
     return ''.join(random.choice(chars) for _ in range(size))
 
