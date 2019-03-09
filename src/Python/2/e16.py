@@ -12,6 +12,7 @@ def no_repeated_digits(num):
     1st digit is not 0
     4 digits
     non duplicate digit
+
     :arg num
     :return: boolean
     """
@@ -60,7 +61,7 @@ guess_num = ''
 while guess_num != 'exit':
     result = gen_no_repeated_digit_rnd()
     print('Generated rnd 4-non-repeated-digit number')
-    print(result)
+    # print(result)
 
     guess_count = 0
 
